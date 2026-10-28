@@ -9,7 +9,8 @@ This is an original **application workflow** by Skylinee, not a claim to have in
 ## Install
 
 ```bash
-cd experiments/skylinee-linear
+git clone https://github.com/cojarman3011/Linear-Model.git
+cd Linear-Model
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 python -m pip install -e '.[train]'
